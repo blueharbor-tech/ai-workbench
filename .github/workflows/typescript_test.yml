@@ -361,7 +361,7 @@ jobs:
           echo "${{ secrets.ENV_VARS }}" > .env
 
       - name: Execute Playwright Tests
-        uses: nick-fields/retry@v3
+        uses: nick-fields/retry@v4
         with:
           # Bumped from 12 → 18 minutes. The shard carrying the
           # starter-projects template sweep iterates every starter template;

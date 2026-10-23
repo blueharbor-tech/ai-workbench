@@ -125,7 +125,7 @@
     "vanilla-jsoneditor": "^2.3.3",
     "web-vitals": "^4.1.1",
     "whatwg-fetch": "^3.6.20",
-    "zod": "^3.23.8",
+    "zod": "^4.6.6",
     "zustand": "^4.5.2"
   },
   "scripts": {
